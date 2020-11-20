@@ -25,15 +25,11 @@ class CreateTodo extends Component {
     })
   }
 
-
   render() {
     return (
       <div>
         <TodoInput inputText={this.state.inputText} updateInputText={(event) => this.updateInputText(event)}/>
         <CreateTodoButton createTodo={() => this.createTodo()}/>
-        for () {
-
-        }
       </div>
     );
   }

@@ -7,7 +7,7 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      todos: ['買牛奶', '繳電話費', '去銀行']
+      todos: []
     }
   }
 
